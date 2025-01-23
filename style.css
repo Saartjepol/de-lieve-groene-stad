@@ -105,7 +105,7 @@ h1{
     margin-left: 50px;
     background-color: #be9f63;
     font-family: broadway;
-    font-size: 200%;
+    font-size: 300%;
     padding: 5%;
     text-align: center;
     border-radius: 4px;
@@ -114,17 +114,15 @@ h1{
     width: 133%;
 }
 
-
-
-
-.winkel{
-    width: 80%;
-    height: 70%;
+.winkel{ 
+    width: 100%;
+    height: 90%;
     border-radius: 8px;
     margin-top: 20%;
     margin-left: 60%;
     margin-right: 15%;
-    border: 30px solid #be9f63;
+    margin-bottom: 2%;
+    border: 30px solid #8c974b;
   
 
 }
@@ -132,7 +130,7 @@ h1{
 
 .overlap-text {
     position: absolute;
-    bottom: 20px; 
+    bottom: -120px; 
     left: 60px;   
     background-color:#b2ba6d; 
     color: #695a36; 
@@ -144,6 +142,10 @@ h1{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.text-block h2 {
+    font-family: broadway;
+}
+
 .recycle{
     width: 50%;
     height: 50%;
@@ -153,19 +155,226 @@ h1{
 
 .text-block {
     background-color: #be9f63;
-    color: #3a2f16; 
+    color: #695a36;
     padding: 20px;
-    width: 115%; 
+    width: 140%; 
     height: 150%;
     margin: 50px auto; 
     margin-left: 80px;
     margin-top: -10%;
     margin-bottom: 200px;
     border-radius: 8px; 
+   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    line-height: 1.6; 
+    font-family: Constantia;
+    font-size: 250%;
+}
+
+.text-personeel {
+    background-color: #8c974b; ;
+    color: #3a2f16; 
+    padding: 20px;
+    width: 120%; 
+    height: 150%;
+    margin: 50px auto; 
+    margin-left: 40px;
+    margin-top: 20%;
+    margin-bottom: 200px;
+    border-radius: 8px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
     line-height: 1.6; 
     font-family: Constantia;
     font-size: 170%;
+}
+
+
+.text-personeel h2{
+    font-family: broadway;
+}
+
+
+.corner-foto{
+margin-left: 350px;
+margin-top: -200px;
+padding: 9px;
+width: 160px;
+height: 170px;
+position:relative;top:-120px; 
+
+}
+
+.text-bevoorrading {
+    background-color: #be9f63; ;
+    color: #3a2f16; 
+    padding: 20px;
+    width: 120%; 
+    height: 150%;
+    margin: 50px auto; 
+    margin-left: 40px;
+    margin-top: -30%;
+    margin-bottom: 200px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    line-height: 1.6; 
+    font-family: Constantia;
+    font-size: 170%;
+}
+
+.text-bevoorrading h2{
+    font-family: broadway;
+}
+
+.text-duurzaamheid {
+    background-color: #f8d692;
+    color: #695a36; 
+    padding: 20px;
+    width: 120%; 
+    height: 150%;
+    margin: 50px auto; 
+    margin-left: 40px;
+    margin-top: -25%;
+    margin-bottom: 200px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    line-height: 1.6; 
+    font-family: Constantia;
+    font-size: 170%;
+}
+
+.aarde-foto{
+    margin-left: 350px;
+    margin-top: -125px;
+    padding: 9px;
+    width: 160px;
+    height: 170px;
+    position:relative;top:-120px; 
+    
+    }
+
+.text-duurzaamheid h2{
+    font-family: broadway;
+}
+
+.klik-voor-diy{
+    display: inline-block; 
+    background-color: #b2ba6d;
+    color: #3a2f16;
+    margin-bottom: -20px;
+    border-radius: 2px; 
+    padding: 10%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  
+    font-family: Constantia;
+    font-size: 190%;
+    text-decoration: none;
+    position:relative;top:-240px;
+}
+
+.text-diy1 {
+    background-color: #f8d692;
+    color: #3a2f16; 
+    padding: 20px;
+    width: 130%; 
+    height: 150%;
+    margin: 50px auto; 
+    margin-left: 40px;
+    margin-top: 20%;
+    margin-bottom: 200px;
+    border-radius: 19px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    line-height: 1.6; 
+    font-family: Constantia;
+    font-size: 170%;
+}
+
+.text-diy2 {
+    background-color: #b2ba6d;
+    color: #3a2f16; 
+    padding: 20px;
+    width: 130%; 
+    height: 150%;
+    margin: 50px auto; 
+    margin-left: 40px;
+    margin-top: 20%;
+    margin-bottom: 200px;
+    border-radius: 19px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    line-height: 1.6; 
+    font-family: Constantia;
+    font-size: 170%;
+}
+
+.text-diy3 {
+    background-color: #be9f63;
+    color: #3a2f16; 
+    padding: 20px;
+    width: 130%; 
+    height: 150%;
+    margin: 50px auto; 
+    margin-left: 40px;
+    margin-top: 20%;
+    margin-bottom: 200px;
+    border-radius: 19px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    line-height: 1.6; 
+    font-family: Constantia;
+    font-size: 170%;
+}
+.text-diy1 h2{
+    font-family: broadway;
+    text-align: center;
+}
+.text-diy2 h2{
+    font-family: broadway;
+    text-align: center;
+}
+.text-diy3 h2{
+    font-family: broadway;
+    text-align: center;
+}
+
+.overlap-nummer1 {
+    position: absolute;
+    bottom: 100px; 
+    left: -10px;   
+    color: #e096ab; 
+    padding: 20px 15px;
+    border-radius: 6px; 
+    font-size: 8rem;
+ 
+}
+
+.overlap-nummer2 {
+    position: absolute;
+    bottom: -1180px; 
+    left: -10px;   
+    color: #d78099; 
+    padding: 20px 15px;
+    border-radius: 6px; 
+    font-size: 8rem;
+ 
+}
+
+
+.overlap-nummer3 {
+    position: absolute;
+    bottom: -2210px; 
+    left: -10px;   
+    color: #ac5a71; 
+    padding: 20px 15px;
+    border-radius: 6px; 
+    font-size: 8rem;
+ 
+}
+
+
+.diy-foto{
+    margin-left: 130px;
+    margin-top: -35px;
+    padding: 9px;
+    width: 200px;
+    height: 200px;
+    position:relative;top: 20px;  
 }
 
 footer {
@@ -226,14 +435,14 @@ footer a{
     display: inline-block; 
     background-color: #efebc0; 
     color: #3a2f16; 
-    padding: 20px 100px; 
+    padding: 10px 100px; 
     margin-top: 20px; 
     margin-left: 61px;
     text-align: center; 
     text-decoration: none;
-    font-size: 1.5rem; 
+    font-size: 2.6rem; 
     font-family: constania;
-    border-radius: 5px; 
+    border-radius: 2px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
     transition: transform 0.2s, background-color 0.2s; 
 }
