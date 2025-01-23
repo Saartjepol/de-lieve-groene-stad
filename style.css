@@ -110,7 +110,7 @@ h1{
     text-align: center;
     border-radius: 4px;
     font-weight: bold;
-    color: #695a36;
+    color: #3a2f16;
     width: 133%;
 }
 
@@ -132,8 +132,8 @@ h1{
     position: absolute;
     bottom: -120px; 
     left: 60px;   
-    background-color:#b2ba6d; 
-    color: #695a36; 
+    background-color:#f8d692; 
+    color: #3a2f16; 
     padding: 20px 15px;
     border-radius: 4px;
     font-size: 2rem;
@@ -155,7 +155,7 @@ h1{
 
 .text-block {
     background-color: #be9f63;
-    color: #695a36;
+    color: #3a2f16;
     padding: 20px;
     width: 140%; 
     height: 150%;
@@ -227,7 +227,7 @@ position:relative;top:-120px;
 
 .text-duurzaamheid {
     background-color: #f8d692;
-    color: #695a36; 
+    color: #3a2f16; 
     padding: 20px;
     width: 120%; 
     height: 150%;
